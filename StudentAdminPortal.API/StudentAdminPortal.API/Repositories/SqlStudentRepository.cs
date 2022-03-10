@@ -15,7 +15,7 @@ namespace StudentAdminPortal.API.Repositories
             _context = context;
         }
 
-        public async Task<List<Student>> GetStudents()
+        public async Task<List<Student>> GetStudentsAsync()
         {
             return await _context
                    .Student

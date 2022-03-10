@@ -8,6 +8,6 @@ namespace StudentAdminPortal.API.Repositories
 {
     public interface IStudentRepository
     {
-        Task<List<Student>> GetStudents();
+        Task<List<Student>> GetStudentsAsync();
     }
 }
